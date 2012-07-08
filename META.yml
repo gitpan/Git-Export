@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Git-Export
-version:            0.01
+version:            0.02
 abstract:           git equivalent to 'svn export'
 author:
     - Casiano Rodriguez-Leon <casiano@ull.es>
