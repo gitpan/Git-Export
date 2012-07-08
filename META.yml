@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Git-Export
-version:            0.02
+version:            0.03
 abstract:           git equivalent to 'svn export'
 author:
     - Casiano Rodriguez-Leon <casiano@ull.es>
@@ -10,7 +10,9 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    File::Copy::Recursive:  0
+    File::Path:           0
 no_index:
     directory:
         - t
